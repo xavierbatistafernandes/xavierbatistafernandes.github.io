@@ -20,144 +20,156 @@
         <section id="portfolio">
             <h2 class="huge">Portfolio</h2>
 
-            <!---------------------------------------------------->
-            <!---------------------------------------------------->
-            <!---------------------------------------------------->
-            <div class="cv-container">
-                <div class="cv-item">
-                    <div>
-                        <img src="images/foxes-and-rabbits.png">
-                    </div>
-                    <div class="cv-content">
-                        <div class="cv-header">
-                            <div class="left">
-                                <h3>Foxes and Rabbits</h3>
-                                <p class="school">Something here</p>
-                            </div>
-                            <div>
-                                <p class="city">Lisbon, Portugal</p>
-                                <p>May 2022</p>
-                                <p>Group of 3 people</p>
-                            </div>
-                        </div>
-
-                        <div class="description">
-                            <p class="font-bold">Description:</p>
-                            <ul class="dot-list">
-                                <li>A first working experience, alongside with MSc degree studies, which demanded good <b>time management</b>.</li>
-                                <li>Delivered lectures and promoted classroom discussions, <b>mentoring</b> 200+ students among 5 courses.</li>
-                                <li>Developed high <b>responsibility</b> tasks of grading assignments, exams and projects submitted by the students.</li>
-                                <li>Held office hours to <b>assist</b> students with course materials, which demanded <b>problem solving</b> and <b>adaptability</b> capabilities.</li>
-                                <li>Assisted in organizing and setting up lab sessions, improving <b>technical</b> and <b>planning</b> skills.</li>
-                            </ul>
-                        </div>
-                        <div class="courses">
-                            <ul>
-                                <li>Multithreading</li>
-                                <li>Distributed Memory Systems</li>
-                            </ul>
-                        </div>
-                        <div class="tools">
-                            <ul>
-                                <li>C</li>
-                                <li>OpenMP</li>
-                                <li>MPI</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <a href="https://github.com/xavierbatistafernandes/Foxes-and-Rabbits">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!---------------------------------------------------->
-            <!---------------------------------------------------->
-            <!---------------------------------------------------->
         
-            <div class="project-container">
+            <div class="cv-container">
 
-                <div class="project-item">
-                    <img src="images/cdp.png">
-                    <div class="project-content">
-                        <h3>Concelhos de Portugal</h3>
-                        <div class="project-info">
-                            <p class="project-description">A web application where you can learn the municipities of Portugal in an interactive style.</p>
-                            <div class="project-frameworks">
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Leaflet</li>
-                                </ul>
-                            </div>
-                            <a href="https://github.com/xavierbatistafernandes/Concelhos-de-Portugal">GitHub</a>
-                            <a href="https://xavierbatistafernandes.github.io/Concelhos-de-Portugal/">Website</a>
+                <!---------------------------------------------------->
+                <!-------------- Concelhos de Portugal --------------->
+                <!---------------------------------------------------->
+                <div class="cv-item">
+                    <div class="flex-row-start">
+                        <div>
+                            <img src="images/concelhos-de-portugal.png">
                         </div>
-                    </div>
-                </div>
-            
-                <div class="project-item">
-                    <img src="images/foxes-and-rabbits.png">
-                    <div class="project-content">
-                        <h3>Foxes and Rabbits</h3>
-                        <div class="project-info">
-                            <p class="project-description">
-                                This project is about simulating a ecosystem evolution between foxes and rabbits.
-                                It explores parallel programming on both shared-memory and distributed-memory systems
-                            </p>
-                            <div class="project-frameworks">
-                                <ul>
-                                    <li class="tool">C</li>
-                                    <li class="tool">OpenMP</li>
-                                    <li class="tool">MPI</li>
-                                    <li class="keyword">Multithreading</li>
-                                </ul>
+                        <div class="cv-content font-normal flex-col-space">
+                            <div class="cv-header">
+                                <div class="cv-header-left padding-small">
+                                    <h3>Concelhos de Portugal</h3>
+                                    <p class="font-normal">Learning Web Application</p>
+                                    <div>
+                                        <a href="https://github.com/xavierbatistafernandes/Concelhos-de-Portugal" target="_blank">GitHub</a>
+                                        <a href="https://xavierbatistafernandes.github.io/Concelhos-de-Portugal/" target="_blank">Website</a>
+                                    </div>
+                                </div>
+                                <div class="cv-header-right padding-small">
+                                    <p class="color-blue font-bold">April 2023</p>
+                                    <p>Personal Project</p>
+                                </div>
                             </div>
-                            <a href="https://github.com/xavierbatistafernandes/Foxes-and-Rabbits">GitHub</a>
-                            <!-- <a href="https://xavierbatistafernandes.github.io/Foxes-and-Rabbits">Website</a> -->
-                        </div>
-                    </div>
-                </div>
 
-
-                <div class="project-item">
-                    <img src="images/boat-registration-system.png">
-                    <div class="project-content">
-                        <h3>Boat Registration System</h3>
-                        <div class="project-info">
-                            <p class="project-description">This project is about boats. It is a full-stack app. This needs way more text to look nice in the website.</p>
-                            <div class="project-frameworks">
-                                <ul>
-                                    <li>C</li>
-                                    <li>OpenMP</li>
-                                    <li>MPI</li>
+                            <div class="cv-description padding-small">
+                                <p class="underline">Description:</p>
+                                <ul class="dot-list">
+                                    <li>A web application designed to help user learn the municipalities of Portugal.</li>
+                                    <li>Has a learning mode, where the user can navigate through the map, or a guessing mode, where the user needs to sequentially guess the municipalities.</li>
+                                    <li>Uses Leaflet, a JavaScript library for web mapping.</li>
                                 </ul>
+                            
+                                <p class="underline">Languages & Categories:</p>
+                                <div style="display: inline-flex;">
+                                    <ul class="flex-list background-blue">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Leaflet</li>
+                                        <li>GeoJSON</li>
+                                    </ul>
+                                    <ul class="flex-list background-grey">
+                                        <li>Web Development</li>
+                                        <li>Web Mapping</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <a href="https://github.com/xavierbatistafernandes/Concelhos-de-Portugal">GitHub</a>
-                            <a href="https://xavierbatistafernandes.github.io/Concelhos-de-Portugal/">Website</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-item">
-                    <img src="images/video-poker.avif">
-                    <div class="project-content">
-                        <h3>Video Poker</h3>
-                        <div class="project-info">
-                            <p class="project-description">This is a java project which implements the casino video poker.</p>
-                            <div class="project-frameworks">
-                                <ul>
-                                    <li>Java</li>
-                                    <li>UML</li>
-                                </ul>
+
+                <!---------------------------------------------------->
+                <!------------------- Video Poker -------------------->
+                <!---------------------------------------------------->
+                <div class="cv-item">
+                    <div class="flex-row-start">
+                        <div>
+                            <img src="images/video-poker.png">
+                        </div>
+                        <div class="cv-content font-normal flex-col-space">
+                            <div class="cv-header">
+                                <div class="cv-header-left padding-small">
+                                    <h3>Video Poker</h3>
+                                    <p class="font-normal">Casino Slot Machine Game</p>
+                                    <div>
+                                        <a href="https://github.com/xavierbatistafernandes/Video-Poker" target="_blank">GitHub</a>
+                                    </div>
+                                </div>
+                                <div class="cv-header-right padding-small">
+                                    <p class="color-blue font-bold">July 2022</p>
+                                    <p>Group of 3 people</p>
+                                </div>
                             </div>
-                            <a href="https://github.com/xavierbatistafernandes/Concelhos-de-Portugal">GitHub</a>
-                            <a href="https://xavierbatistafernandes.github.io/Concelhos-de-Portugal/">Website</a>
+
+                            <div class="cv-description padding-small">
+                                <p class="underline">Description:</p>
+                                <ul class="dot-list">
+                                    <li>A Java-based application of the casino game Video Poker, designed for high extensability</li>
+                                    <li>Currently with interactive and simulation modes, where the user can play interactively the game or simulate a large amount of rounds, respectively.</li>
+                                </ul>
+                            
+                                <p class="underline">Languages & Categories:</p>
+                                <div style="display: inline-flex;">
+                                    <ul class="flex-list background-blue">
+                                        <li>Java</li>
+                                        <li>UML</li>
+                                    </ul>
+                                    <ul class="flex-list background-grey">
+                                        <li>Object Oriented Programming</li>
+                                        <li>Polymorphism</li>
+                                        <li>Abstraction</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                <!---------------------------------------------------->
+                <!--------------- Foxes and Rabbits ------------------>
+                <!---------------------------------------------------->
+                <div class="cv-item">
+                    <div class="flex-row-start">
+                        <div>
+                            <img src="images/foxes-and-rabbits.png">
+                        </div>
+                        <div class="cv-content font-normal flex-col-space">
+                            <div class="cv-header">
+                                <div class="cv-header-left padding-small">
+                                    <h3>Foxes and Rabbits</h3>
+                                    <p class="font-normal">Ecosystem Simulation</p>
+                                    <div>
+                                        <a href="https://github.com/xavierbatistafernandes/Foxes-and-Rabbits" target="_blank">GitHub</a>
+                                    </div>
+                                </div>
+                                <div class="cv-header-right padding-small">
+                                    <p class="color-blue font-bold">May 2022</p>
+                                    <p>Group of 3 people</p>
+                                </div>
+                            </div>
 
+                            <div class="cv-description padding-small">
+                                <p class="underline">Description:</p>
+                                <ul class="dot-list">
+                                    <li>A C-based program simulating the evolution of an ecosystem between foxes and rabbits.</li>
+                                    <li>Different implementations, from a simple serial version running in a single process, to multiple processes in a distributed memory system.</li>
+                                </ul>
+                            
+                                <p class="underline">Languages & Categories:</p>
+                                <div style="display: inline-flex;">
+                                    <ul class="flex-list background-blue">
+                                        <li>C</li>
+                                        <li>OpenMP</li>
+                                        <li>MPI</li>
+                                    </ul>
+                                    <ul class="flex-list background-grey">
+                                        <li>Multithreading</li>
+                                        <li>Distributed- and Shared-Memory Systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
         
 

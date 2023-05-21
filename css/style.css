@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f1f1f1;
 }
 
 /* Reset default styles */
@@ -89,6 +90,11 @@ section h3 {
     margin: 0px 0px;
 }
 
+section p {
+    padding: 0.2em 0.1em;
+    margin: 0;
+}
+
 
 section a {
     display: inline-block;
@@ -108,141 +114,9 @@ section a:hover {
 }
 
 
-/* project-container */
-.project-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-/* project-item */
-.project-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-    width: 100%;
-    margin: 20px 20px;
-    padding: 5px;
-
-    border: 1px solid #ccc;
-    background-color: #f3f3f3;
-    border-radius: 3px;
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.project-item .links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    text-align: center;
-}
-
-.project-item .links a {
-    font-size: 20px;
-    margin-right: 10px;
-    padding: 4px 10px;
-    background-color: #dedede;
-    text-decoration: none;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
-}
-
-.project-item img {
-    width: 20%;
-}
-
-.project-container h3 {
-    font-size: 2rem;
-}
-
-.project-item .links a:hover {
-    background-color: rgba(109, 163, 239, 0.5);
-}
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10px;
-}
-
-.project-item .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color:rgb(109, 134, 169);
-    font-size: 2em;
-
-    border-bottom: #000000;
-    border-bottom-style: solid;
-    border-width: 1px;
-
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-.project-item .header .date {
-    color: black;
-    padding: 5px 0;
-}
-
-.project-item .header .projtype {
-    margin-right: 15px;
-    padding: 5px 0;
-    color: black;
-}
-
-.project-item .header .title {
-    display: flex;
-    flex-direction: column;
-}
-
-.project-item .header .title h3, p {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-.project-item .info {
-    color:#000000;
-}
-
-.project-item .info p {
-    color:#3a3a3a;
-}
-
-.project-item a:hover {
-    background-color: #555;
-}
-
-
-/* project-content */
-.project-content {
-    display: flex;
-    width: auto;
-    flex-direction: column; 
-    align-items: center; 
-}
-
-.project-content p {
-    text-align: left;
-    padding: 0.5em;
-}
 
 
 
-
-
-
-
-
-
-
-/* FOOTER */
 
 footer {
     background-color: #333;
@@ -292,6 +166,10 @@ footer div ul li a img {
 
 
 
+
+
+
+
 .flex-list {
     list-style: none;
     display: flex;
@@ -316,22 +194,10 @@ footer div ul li a img {
     background-color: rgba(159, 159, 159, 0.3);
 }
 
-/* .tools ul {
-    list-style: none;
-    display: flex;
-    margin: 10px 0;
-    flex-wrap: wrap;
-}
 
-.tools li {
-    margin-right: 10px;
-    margin-bottom: 10px;
 
-    padding: 4px 10px;
-    border-radius: 5px;
-    font-size: 1em;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-} */
+
+
 
 
 
@@ -356,6 +222,7 @@ footer div ul li a img {
 .cv-header-left p {
     text-align: left;
     padding-top: 0;
+    margin: 2px;
 }
 
 .cv-header-right {
@@ -367,7 +234,8 @@ footer div ul li a img {
 .cv-header-right p {
     text-align: right;
     font-size: 1.5rem;
-    padding-top: 0;
+    padding: 0 0.2em;
+    margin: 0;
 }
 
 
@@ -379,10 +247,6 @@ footer div ul li a img {
     background-color: #ffffff;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.cv-item h3 {
-    margin: 0;
 }
 
 .cv-item .cv-header h3 {
@@ -418,7 +282,7 @@ footer div ul li a img {
 }
 
 .dot-list li {
-    padding-left: 0.5em;
+    padding-left: 0;
     position: relative;
     font-size: 1.2em;
 }
@@ -428,6 +292,58 @@ footer div ul li a img {
     position: absolute;
     left: -1em;
 }
+
+
+
+
+
+
+
+
+.flex-row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-row-start .cv-header h3 {
+    font-size: 2.5rem;
+}
+
+.flex-row-start a {
+    font-size: 1.5rem;
+    border-radius: 3px;
+}
+
+.flex-row-start .cv-content {
+    flex: 1;
+}
+
+.flex-row-start img {
+    padding: 0;
+    width: 500px;
+    margin: 0.75em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.flex-col-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 .font-larger {
@@ -470,6 +386,11 @@ footer div ul li a img {
 .school {
     font-size: 1.3em;
     color: black;
+}
+
+
+.padding-small {
+    padding: 0.5em;
 }
 
 .bot-padding-small {
