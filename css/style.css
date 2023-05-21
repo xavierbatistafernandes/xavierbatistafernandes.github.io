@@ -195,12 +195,6 @@ footer div ul li a img {
 }
 
 
-
-
-
-
-
-
 #cv {
     text-align: left;
     font-size: larger;
@@ -344,8 +338,6 @@ footer div ul li a img {
 
 
 
-
-
 .font-larger {
     font-size: 3rem;
 }
@@ -358,6 +350,14 @@ footer div ul li a img {
     font-size: 1.27rem;
 }
 
+.font-title {
+    font-size: larger;
+    font-size: 300%;
+}
+
+.font-huge {
+    font-size: 375%;
+}
 
 .color-blue {
     color:rgba(109, 163, 239, 1);
@@ -367,9 +367,6 @@ footer div ul li a img {
     color:rgb(60, 60, 60);
 }
 
-.huge {
-    font-size: 300%;
-}
 
 .font-bold {
     font-weight: bold;
@@ -395,4 +392,8 @@ footer div ul li a img {
 
 .bot-padding-small {
     padding-bottom: 0.5em;
+}
+
+.bot-padding-medium {
+    padding-bottom: 0.75em;
 }
