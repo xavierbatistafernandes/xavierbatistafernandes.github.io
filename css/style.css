@@ -29,6 +29,7 @@ img {
 /* Style the navigation */
 nav {
     background-color: #333;
+    font-size: larger;
 }
 
 nav ul {
@@ -71,6 +72,7 @@ nav ul li a.active {
 
 #index section {
     position: relative;
+    font-size: larger;
 }
 
 #index footer {
@@ -78,10 +80,11 @@ nav ul li a.active {
     right: 0;
     left: 0;
     top: 100%;
+    text-align: start;
 }
 
 #index h1 {
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 4.5em;
     color: #4d94d1;
     transition: color 0.3s ease;
@@ -92,7 +95,7 @@ nav ul li a.active {
 }
 
 #index p {
-    font-size: 24px;
+    font-size: 2rem;
     color: #777;
     margin-bottom: 20px;
 }
