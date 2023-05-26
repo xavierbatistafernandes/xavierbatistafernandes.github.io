@@ -12,6 +12,7 @@ body {
     height: 100%;
     min-height: 100%;
     box-sizing: inherit;
+    
 
 }
 
@@ -72,7 +73,25 @@ nav ul li a.active {
 
 #index section {
     position: relative;
-    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+#index div img {
+    max-width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#index section p {
+    font-size: 300%;
+    /* text-align: justify; */
+    max-width: 80%;
+    margin: auto;
+    color:rgb(61, 61, 61);
+    padding: 10% 0;
 }
 
 #index footer {
@@ -222,7 +241,10 @@ footer div ul li a img {
 
 #cv {
     text-align: left;
-    font-size: larger;
+}
+
+#portfolio {
+    font-size: 80%;
 }
 
 
@@ -388,8 +410,16 @@ footer div ul li a img {
     color:rgba(109, 163, 239, 1);
 }
 
+.color-darkerblue {
+    color:rgb(44, 114, 212);
+}
+
 .color-grey {
     color:rgb(60, 60, 60);
+}
+
+.color-darkgrey {
+    color:rgb(39, 39, 39);
 }
 
 
